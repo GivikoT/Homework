@@ -1,0 +1,58 @@
+export const products = [
+  {
+    id: 1,
+    title: "Training Kit",
+    image: require("../images/sport1.png"),
+    category: "Sport",
+    stock: "In Stock",
+  },
+  {
+    id: 2,
+    title: "Casual Shirt",
+    image: require("../images/casual1.png"),
+    category: "Casual",
+    stock: "Out of Stock",
+  },
+  {
+    id: 3,
+    title: "Nike Air Sweater",
+    image: require("../images/sport2.png"),
+    category: "Sport",
+    stock: "In Stock",
+  },
+  {
+    id: 4,
+    title: "Polo Shirt",
+    image: require("../images/casual2.png"),
+    category: "Casual",
+    stock: "Out of Stock",
+  },
+  {
+    id: 5,
+    title: "Nike Shirt",
+    image: require("../images/sport3.png"),
+    category: "Sport",
+    stock: "In Stock",
+  },
+  {
+    id: 6,
+    title: "Blouse Sleeve",
+    image: require("../images/casual3.png"),
+    category: "Casual",
+    stock: "Out of Stock",
+  },
+  {
+    id: 7,
+    title: "Nike Shorts ",
+    image: require("../images/sport4.png"),
+    category: "Sport",
+    stock: "Out of Stock",
+  },
+  {
+    id: 8,
+    title: "T-shirt Icon",
+    image: require("../images/casual4.png"),
+    category: "Casual",
+    stock: "Out of Stock",
+  },
+];
