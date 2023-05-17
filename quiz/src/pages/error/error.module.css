@@ -1,0 +1,41 @@
+.cont {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #ffebeb;
+}
+
+.cont h1 {
+  font-size: 260px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 20px;
+}
+
+.cont h2 {
+  color: #d5b4b4;
+  font-weight: 900;
+}
+
+.cont p {
+  font-size: 20px;
+}
+
+.cont button {
+  text-decoration: none;
+  background: #1b2430;
+  color: #fff;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s;
+  margin-top: 20px;
+}
+
+.cont button:hover {
+  background: #e55039;
+}
